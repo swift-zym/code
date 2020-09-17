@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/B-zyy.dir/B-zyy.cpp.o  -o B-zyy 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/2020_6_26.dir/T1.cpp.o  -o 2020_6_26 

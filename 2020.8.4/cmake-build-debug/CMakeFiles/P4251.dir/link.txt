@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P4251.dir/P4251.cpp.o  -o P4251 

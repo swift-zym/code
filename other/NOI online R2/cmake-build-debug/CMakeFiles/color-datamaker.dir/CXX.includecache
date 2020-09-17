@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/color-datamaker.cpp
+bits/stdc++.h
+-
+

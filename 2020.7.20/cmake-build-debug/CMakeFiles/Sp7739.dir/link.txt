@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Sp7739.dir/Sp7739.cpp.o  -o Sp7739 

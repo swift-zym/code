@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3973.dir/P3973.cpp.o  -o P3973 

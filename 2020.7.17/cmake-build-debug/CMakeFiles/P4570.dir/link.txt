@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P4570.dir/P4570.cpp.o  -o P4570 

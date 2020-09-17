@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/T7.dir/T7.cpp.o  -o T7 

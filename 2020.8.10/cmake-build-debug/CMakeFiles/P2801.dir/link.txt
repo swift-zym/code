@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P2801.dir/P2801.cpp.o  -o P2801 

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NOI_online_R2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color-datamaker">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/color-datamaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 color-datamaker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color-datamaker/fast">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/color-datamaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 color-datamaker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence-baoli">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/sequence-baoli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sequence-baoli"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence-baoli/fast">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/sequence-baoli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sequence-baoli/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence-datamaker">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/sequence-datamaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sequence-datamaker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence-datamaker/fast">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/sequence-datamaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sequence-datamaker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 color"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color/fast">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 color/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="match">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/match" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 match"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="match/fast">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/match" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 match/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/sequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sequence"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sequence/fast">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/sequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sequence/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NOI_online_R2">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/NOI_online_R2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 NOI_online_R2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NOI_online_R2/fast">
+				<Option output="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/NOI_online_R2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 NOI_online_R2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zhangcheng/OneDrive\ -\ ODMAIL/OI/code/other/NOI\ online\ R2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/color-datamaker.cpp">
+			<Option target="color-datamaker"/>
+		</Unit>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/color.cpp">
+			<Option target="color"/>
+		</Unit>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/main.cpp">
+			<Option target="NOI_online_R2"/>
+		</Unit>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/match.cpp">
+			<Option target="match"/>
+		</Unit>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/sequence-baoli.cpp">
+			<Option target="sequence-baoli"/>
+		</Unit>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/sequence-datamaker.cpp">
+			<Option target="sequence-datamaker"/>
+		</Unit>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/sequence.cpp">
+			<Option target="sequence"/>
+		</Unit>
+		<Unit filename="/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

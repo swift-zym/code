@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/swift/Documents/code-new/2020.7.19/std.cpp
+iostream
+-
+stdio.h
+-
+string.h
+-
+algorithm
+-
+math.h
+-
+

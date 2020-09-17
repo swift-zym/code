@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/dfz.dir/dfz.cpp.o  -o dfz 

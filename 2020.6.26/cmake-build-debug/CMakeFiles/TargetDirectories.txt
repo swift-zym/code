@@ -1,0 +1,11 @@
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/T3.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/T1.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/T2.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/T6.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/2020_6_26.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/T4.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/T7.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/T5.dir
+/home/swift/Douments/code/2020.6.26/cmake-build-debug/CMakeFiles/lct.dir

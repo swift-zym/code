@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/T3-baoli.dir/T3-baoli.cpp.o  -o T3-baoli 

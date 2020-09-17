@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3317.dir/P3317.cpp.o  -o P3317 

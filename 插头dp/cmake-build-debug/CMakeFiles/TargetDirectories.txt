@@ -1,0 +1,4 @@
+/home/swift/Documents/code-new/插头dp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code-new/插头dp/cmake-build-debug/CMakeFiles/P3272.dir
+/home/swift/Documents/code-new/插头dp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Documents/code-new/插头dp/cmake-build-debug/CMakeFiles/main.dir

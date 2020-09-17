@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lcc.dir/lcc.cpp.o  -o lcc 

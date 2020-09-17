@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/2714-1.dir/2714-1.cpp.o  -o 2714-1 

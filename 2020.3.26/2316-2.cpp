@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+using namespace std;
+int n;
+int main(){
+    scanf("%d",&n);
+    if(n==1)cout<<0<<endl;
+    else if(n==2)cout<<1<<endl;
+    else if(n==3)cout<<2<<endl;
+    else if(n<=7)cout<<3<<endl;
+    else if(n==8)cout<<4<<endl;
+    else if(n==9)cout<<5<<endl;
+    else if(n<=13)cout<<6<<endl;
+    else if(n==14)cout<<7<<endl;
+    else if(n==15)cout<<8<<endl;
+    else if(n<=21)cout<<9<<endl;
+    else if(n<=25)cout<<10<<endl;
+    else if(n<=37)cout<<11<<endl;
+    else if(n<=45)cout<<12<<endl;
+    else if(n<=51)cout<<13<<endl;
+    else if(n<=165)cout<<14<<endl;
+    else if(n<=165)cout<<15<<endl;
+    else if(n<=224)cout<<16<<endl;
+    else if(n<=476)cout<<17<<endl;
+    else if(n<=584)cout<<18<<endl;
+    else if(n<=1112)cout<<19<<endl;
+    else if(n<=1364)cout<<20<<endl;
+    else if(n<=2234)cout<<21<<endl;
+    else if(n<=2342)cout<<22<<endl;
+    else if(n<=2564)cout<<23<<endl;
+    else if(n<=4436)cout<<24<<endl;
+    else if(n<=5144)cout<<25<<endl;
+    else if(n<=6554)cout<<26<<endl;
+    else if(n<=8534)cout<<27<<endl;
+    else if(n<=10664)cout<<28<<endl;
+    else if(n<=12452)cout<<29<<endl;
+    else if(n<=18710)cout<<30<<endl;
+    else if(n<=19802)cout<<31<<endl;
+    else if(n<=23924)cout<<32<<endl;
+    else if(n<=44829)cout<<33<<endl;
+    else if(n<=50000)cout<<34<<endl;
+    return 0;
+}

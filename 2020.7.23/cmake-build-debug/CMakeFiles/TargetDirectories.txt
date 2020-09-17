@@ -1,0 +1,10 @@
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/P2495.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/dfz.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/P4602.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/2020_7_23.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/P5090.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/carry.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/power.dir
+/home/swift/Documents/code-new/2020.7.23/cmake-build-debug/CMakeFiles/candy.dir

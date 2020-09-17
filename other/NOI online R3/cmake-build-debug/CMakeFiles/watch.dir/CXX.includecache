@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangcheng/OneDrive - zhangyiming/OI/code/other/NOI online R3/watch.cpp
+cstdio
+-
+cstring
+-
+iostream
+-
+algorithm
+-
+queue
+-
+stack
+-
+cmath
+-
+

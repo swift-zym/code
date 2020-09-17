@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3388.dir/P3388.cpp.o  -o P3388 

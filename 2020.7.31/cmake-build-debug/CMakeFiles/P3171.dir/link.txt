@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3171.dir/P3171.cpp.o  -o P3171 

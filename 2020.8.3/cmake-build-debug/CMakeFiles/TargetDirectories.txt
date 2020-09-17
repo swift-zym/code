@@ -1,0 +1,9 @@
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/P2324.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/P4151.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/C.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/2020_8_3.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/A.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/B.dir
+/home/swift/Documents/code-new/2020.8.3/cmake-build-debug/CMakeFiles/BB.dir

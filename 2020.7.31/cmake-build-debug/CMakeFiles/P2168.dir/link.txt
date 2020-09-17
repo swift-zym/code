@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P2168.dir/P2168.cpp.o  -o P2168 

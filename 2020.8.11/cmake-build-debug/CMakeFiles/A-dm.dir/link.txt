@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/A-dm.dir/A-dm.cpp.o  -o A-dm 

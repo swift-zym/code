@@ -1,0 +1,10 @@
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/B-zyy.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/P2387.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/B-dm.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/2020_7_22.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/dinic.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/B.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/C.dir
+/home/swift/Documents/code-new/2020.7.22/cmake-build-debug/CMakeFiles/A.dir

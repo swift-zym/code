@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+project(2020_6_9)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(2020_6_9 main.cpp)
+add_executable(first first.cpp)
+add_executable(CMakeLists CMakeLists.txt)
+add_executable(main main.cpp)
+add_executable(second second.cpp)
+add_executable(third third.cpp)
+add_executable(4278 4278.cpp)
+add_executable(4279 4279.cpp)
+add_executable(4276 4276.cpp)
+add_executable(4277 4277.cpp)

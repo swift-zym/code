@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/fhq.dir/fhq.cpp.o  -o fhq 

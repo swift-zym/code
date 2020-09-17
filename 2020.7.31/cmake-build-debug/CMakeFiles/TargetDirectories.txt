@@ -1,0 +1,9 @@
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/P5043.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/P2168.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/2020_7_31.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/2716-3.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/2714-2.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/P3973.dir
+/home/swift/Documents/code-new/2020.7.31/cmake-build-debug/CMakeFiles/P3224.dir

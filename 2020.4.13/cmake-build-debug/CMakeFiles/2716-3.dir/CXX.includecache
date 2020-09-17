@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/2020.4.13/cmake-build-debug/2716-3.cpp
+bits/stdc++.h
+-
+

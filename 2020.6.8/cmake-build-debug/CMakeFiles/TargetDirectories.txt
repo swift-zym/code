@@ -1,0 +1,5 @@
+/home/swift/Documents/code/2020.6.8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code/2020.6.8/cmake-build-debug/CMakeFiles/First.dir
+/home/swift/Documents/code/2020.6.8/cmake-build-debug/CMakeFiles/Second.dir
+/home/swift/Documents/code/2020.6.8/cmake-build-debug/CMakeFiles/2020_6_8.dir
+/home/swift/Documents/code/2020.6.8/cmake-build-debug/CMakeFiles/edit_cache.dir

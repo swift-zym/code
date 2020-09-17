@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1618.dir/P1618.cpp.o  -o 1618 

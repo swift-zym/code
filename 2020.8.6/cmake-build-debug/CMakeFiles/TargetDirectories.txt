@@ -1,0 +1,5 @@
+/home/swift/Documents/code-new/2020.8.6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code-new/2020.8.6/cmake-build-debug/CMakeFiles/2020_8_6.dir
+/home/swift/Documents/code-new/2020.8.6/cmake-build-debug/CMakeFiles/zkq.dir
+/home/swift/Documents/code-new/2020.8.6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Documents/code-new/2020.8.6/cmake-build-debug/CMakeFiles/AT3945.dir

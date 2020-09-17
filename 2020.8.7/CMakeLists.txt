@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.17)
+project(2020_8_7)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(2020_8_7 main.cpp)
+add_executable(A A.cpp)
+add_executable(B B.cpp)
+add_executable(P2257 P2257.cpp)
+add_executable(T1 T1.cpp)
+add_executable(T2 T2.cpp)
+add_executable(T3 T3.cpp)
+add_executable(T3-baoli T3-baoli.cpp)
+add_executable(T3-dm T3-dm.cpp)
+add_executable(T4 T4.cpp)

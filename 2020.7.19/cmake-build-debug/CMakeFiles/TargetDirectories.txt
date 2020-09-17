@@ -1,0 +1,11 @@
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/T1.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/main.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/T3.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/2020_7_19.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/T2.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/hack.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/fhq.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/dataMaker.dir
+/home/swift/Documents/code-new/2020.7.19/cmake-build-debug/CMakeFiles/std.dir

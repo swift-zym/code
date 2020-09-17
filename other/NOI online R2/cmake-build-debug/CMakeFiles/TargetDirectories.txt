@@ -1,0 +1,9 @@
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/color-datamaker.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/sequence-baoli.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/sequence-datamaker.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/color.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/match.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/sequence.dir
+/Users/zhangcheng/OneDrive - ODMAIL/OI/code/other/NOI online R2/cmake-build-debug/CMakeFiles/NOI_online_R2.dir

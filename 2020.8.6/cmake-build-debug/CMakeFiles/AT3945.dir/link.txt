@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AT3945.dir/AT3945.cpp.o  -o AT3945 

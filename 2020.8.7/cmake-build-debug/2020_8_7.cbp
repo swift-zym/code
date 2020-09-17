@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="2020_8_7"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T4">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T4/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 B"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 B/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 A"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 A/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_8_7">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/2020_8_7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_8_7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2020_8_7/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/2020_8_7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 2020_8_7/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T1">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T1/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T2">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T2/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T3-dm">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T3-dm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T3-dm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T3-dm/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T3-dm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T3-dm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T3">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T3/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2257">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/P2257" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 P2257"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="P2257/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/P2257" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 P2257/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T3-baoli">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T3-baoli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T3-baoli"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="T3-baoli/fast">
+				<Option output="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/T3-baoli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swift/Documents/code-new/2020.8.7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 T3-baoli/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swift/Documents/code-new/2020.8.7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/A.cpp">
+			<Option target="A"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/B.cpp">
+			<Option target="B"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/P2257.cpp">
+			<Option target="P2257"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/T1.cpp">
+			<Option target="T1"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/T2.cpp">
+			<Option target="T2"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/T3-baoli.cpp">
+			<Option target="T3-baoli"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/T3-dm.cpp">
+			<Option target="T3-dm"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/T3.cpp">
+			<Option target="T3"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/T4.cpp">
+			<Option target="T4"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/main.cpp">
+			<Option target="2020_8_7"/>
+		</Unit>
+		<Unit filename="/home/swift/Documents/code-new/2020.8.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

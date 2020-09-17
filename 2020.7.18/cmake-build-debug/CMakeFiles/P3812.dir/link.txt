@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/P3812.dir/P3812.cpp.o  -o P3812 

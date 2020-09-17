@@ -38,9 +38,9 @@ void dfs(int now,int fa){
     if(Min[now]>Max[now]){flag=0;}
 }
 bool check(){
-    if(x<A[1])return 0;
     flag=1;
     dfs(1,1);
+    if(x<Min[1]||x>Max[1])return 0;
     return flag;
 }
 int main(){
@@ -57,13 +57,13 @@ int main(){
     for(int i=1;i<=m;i++){
         int x,y;
         scanf("%d%d",&x,&y);
-        A[x]=y;
+        A[x]=max(A[x],y);
     }
     scanf("%d",&m);
     for(int i=1;i<=m;i++){
         int x,y;
         scanf("%d%d",&x,&y);
-        B[x]=y;
+        B[x]=max(B[x],y);
     }
     int l=0,r=n;
     while(l!=r){

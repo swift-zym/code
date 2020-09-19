@@ -1,7 +1,7 @@
 //
 // Created by swift on 2020/7/21.
 //
-
+#pragma GCC optimize(2)
 #include<bits/stdc++.h>
 using namespace std;
 #define inf 10000000
@@ -12,7 +12,7 @@ struct fhq_treap{
         long long val;
         int tag;
         long long sum;
-    }a[2000000];
+    }a[20000000];
     stack<int>tmp_data;
     int tot,root;
     void upd(int x){
@@ -21,17 +21,17 @@ struct fhq_treap{
     }
     void remove_node(int x){
         a[x].son[0]=a[x].son[1]=a[x].tag=0;
-        tmp_data.push(x);
+        //tmp_data.push(x);
     }
     int New(int x){
-        int idx;
-        if(!tmp_data.empty()){
+        int idx=++tot;
+        /*if(!tmp_data.empty()){
             idx=tmp_data.top();
             tmp_data.pop();
         }
         else{
             idx=++tot;
-        }
+        }*/
         a[idx].rnd=rand();
         a[idx].val=a[idx].sum=x;
         //cout<<">"<<x<<endl;
@@ -39,14 +39,14 @@ struct fhq_treap{
         return idx;
     }
     int Clone(int x){
-        int idx;
-        if(!tmp_data.empty()){
+        int idx=++tot;
+        /*if(!tmp_data.empty()){
             idx=tmp_data.top();
             tmp_data.pop();
         }
         else{
             idx=++tot;
-        }
+        }*/
         a[idx]=a[x];
         return idx;
     }
@@ -147,8 +147,8 @@ int ans=0;
 int roots[200001];
 long long lastans;
 signed main(){
-    freopen("P5055_7.in","r",stdin);
-    freopen("P5055_7.my.out","w",stdout);
+    //freopen("P5055_7.in","r",stdin);
+    //freopen("P5055_7.my.out","w",stdout);
     srand(time(0));
     scanf("%d",&m);
     /*for(int i=1;i<=n;i++){

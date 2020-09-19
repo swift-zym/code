@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;
-struct tree{
+class tree{
+private:
     struct node{
         int l,r,ls,rs,sum,siz;
     }a[10000000];
@@ -16,9 +17,6 @@ struct tree{
         //cout<<a[tot].l<<" "<<a[tot].r<<endl;
         return tot;
     }
-    void build(int MAX_VALUE){
-        a[0]={1,MAX_VALUE,-1,-1,0,0};
-    }
     void pushup(int now){
         a[now].sum=0;
         a[now].siz=0;
@@ -30,6 +28,13 @@ struct tree{
             a[now].sum+=a[a[now].rs].sum;
             a[now].siz+=a[a[now].rs].siz;
         }
+    }
+public:
+    void build(int MAX_VALUE){
+        a[0]={1,MAX_VALUE,-1,-1,0,0};
+    }
+    int size(){
+        return tot;
     }
     int add(int from,int pos,int v,int __copy=1){
         int now;
@@ -110,12 +115,12 @@ signed main(){
     }
     for(int i=1;i<=n;i++){
         for(int j=0;j<add[i].size();j++){
-            roots[ver+1]=base.tot+1;
+            roots[ver+1]=base.size()+1;
             base.add(roots[ver],add[i][j],1);
             ver++;
         }
         for(int j=0;j<del[i].size();j++){
-            roots[ver+1]=base.tot+1;
+            roots[ver+1]=base.size()+1;
             base.add(roots[ver],del[i][j],-1);
             ver++;
         }

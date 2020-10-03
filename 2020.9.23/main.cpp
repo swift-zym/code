@@ -278,6 +278,7 @@ namespace scmd{
                 read(true);
             }
         }
+        active.checkPassword();
         while(true){
             loop(cin);
         }

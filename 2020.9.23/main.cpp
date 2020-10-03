@@ -59,7 +59,9 @@ namespace scmd{
     File database[MAX_FILE_SIZE];
     int tot;
     File* newFile(){
+        if(tot+1<MAX_FILE_SIZE)
         return &database[tot++];
+        return NULL;
     }
     class User{
         private:

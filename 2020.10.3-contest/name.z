@@ -1,0 +1,8 @@
+@All
+@Main
+@AutoRun
+~int a,b=0
+~cin>>a>>b
+~cout<<a+b<<endl
+~system("pause")
+@

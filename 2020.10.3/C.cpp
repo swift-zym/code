@@ -19,8 +19,10 @@ int main(){
             vis[abs(a[j]-b[j])]=1;
         }
         if(num>ans){
-            memcpy(ansA,a,sizeof(a));
-            memcpy(ansB,b,sizeof(b));
+            for(int j=0;j<n;j++){
+                ansA[j]=a[j];
+                ansB[j]=b[j];
+            }
             ans=num;
         }
     }

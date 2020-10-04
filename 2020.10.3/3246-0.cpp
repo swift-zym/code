@@ -19,7 +19,7 @@ void dfs(int now,int fa){
             if(num[len]==3&&len>=2){
                 puts("Yes");
                 exit(0);
-                
+
             }
         }
         if(!vis[to])

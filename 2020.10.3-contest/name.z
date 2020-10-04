@@ -1,8 +1,9 @@
 @All
-@Main
 @AutoRun
-~int a,b=0
-~cin>>a>>b
-~cout<<a+b<<endl
-~system("pause")
+@Main
+    var a=0,b=0
+    input(a)
+    input(b)
+    print(a+b)
+    pause()
 @

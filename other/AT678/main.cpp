@@ -1149,6 +1149,27 @@ double rad(int x){
 }
 #define sin(x) sin(rad(x))
 #define cos(x) cos(rad(x))
+pair<double,double>check_number(int x){
+    int mid=(maxy[x]+miny[x])/2;
+    int numA=0,numB=0;
+    for(int i=minx[x];i<=maxx[x];i++){
+        for(int j=miny[x];j<=mid;j++){
+            numB++;
+            numA+=(a[i][j]=='#');
+        }
+    }
+    double left=double(numA)/numB;
+    numA=numB=0;
+    for(int i=minx[x];i<=maxx[x];i++){
+        for(int j=mid+1;j<=maxy[x];j++){
+            numB++;
+            numA+=(a[i][j]=='#');
+        }
+    }
+    //cout<<miny[x]<<" "<<mid<<" "<<maxy[x]<<endl;
+    double right=double(numA)/numB;
+    return make_pair(left,right);
+}
 void turn(){
     for(int i=1;i<=now;i++){
         int x_t=(maxx[i]+minx[i])/2,y_t=(maxy[i]+miny[i])/2;
@@ -1503,8 +1524,8 @@ double getAnswer()   //表达式求值
     return opval.top();   //返回opval栈顶元素的值
 }
 int main(){
-    //freopen("data.txt","r",stdin);
-    //freopen("out.txt","w",stdout);
+    freopen("037.txt","r",stdin);
+    freopen("out.txt","w",stdout);
     //ios::sync_with_stdio(0);
     cin>>t;
     cin>>w>>h;
@@ -1558,18 +1579,24 @@ int main(){
                 id=j;
             }
         }
-
+        auto sol=check_number(i);
+        if(sol.second>=sol.first*1.5){
+            if(ch[bfid]=='9'){
+                bfid-=2;
+            }
+        }
         if(ch[id]=='+'||ch[id]=='-'||ch[id]=='*'||ch[id]=='/'){
             fin_ans.push_back(ch[id]);
 
         }
         else
             fin_ans.push_back(ch[bfid]);
+        cout<<sol.first<<" "<<sol.second<<endl;
     }
-    /*for(int i=0;i<fin_ans.size();i++){
+    for(int i=0;i<fin_ans.size();i++){
       putchar(fin_ans[i]);
     }
-    cout<<endl;*/
+    cout<<endl;
     printf("%d\n",int(getAnswer()));
     return 0;
 }

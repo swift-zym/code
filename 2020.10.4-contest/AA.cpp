@@ -53,8 +53,8 @@ int main(){
         dfs(v[i].x,v[i].y,v[i].v);
         ans^=solve();
         //print();
-        cout<<solve()<<endl;
-        system("pause");
+        //cout<<solve()<<endl;
+        //system("pause");
     }
     cout<<ans<<endl;
     return 0;

@@ -6,7 +6,12 @@ If the value of x is less than 1200 do{
     Print out "ABC\n";
 }
 Else{
-    Print out "ARC\n";
+    If the value of x is greater than 1300 do{
+        Print out "ARC\n";
+    }
+    Else{
+        Print out "12XX\n";
+    }
 }
 That is all;
 Thank you so much;

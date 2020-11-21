@@ -1,4 +1,3 @@
-#pragma GCC optimize(2)
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;
@@ -27,6 +26,7 @@ bool check(int x){
     return ans<=m;
 }
 signed main(){
+    freopen("ss.txt","r",stdin);
     scanf("%lld%lld%lld",&n,&m,&x);
     for(int i=1;i<=m;i++)scanf("%lld%lld",&l[i],&r[i]);
     int l=1,r=m;

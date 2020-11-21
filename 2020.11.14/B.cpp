@@ -2,58 +2,45 @@
 #define int long long
 #define MOD 19260817
 using namespace std;
-int n,k;
+int n,k,a[4000],sum;
 vector<int>v[4000];
-int a[4000],vis[4000],tmp[4000];
-int dfs1(int now,int mi,int mx){
-    vis[now]=1;
-    tmp[now]=1;
+int dfs(int now,int fa,int mi,int mx,bool __isfirst=true){
+    if(__isfirst)sum=0;
+    int tmp=1;
     for(auto to:v[now]){
-        if(!vis[to]){
-            tmp[now]*=(dfs1(to,type,v)+1);
-            tmp[now]%=MOD;
+        if(to==fa)continue;
+        tmp*=(dfs(to,now,mi,mx,false)+1);
+        tmp%=MOD;
+    }
+    if(a[now]<mi||a[now]>mx){
+        if(__isfirst){
+            return sum;
         }
+        return 0;
     }
-    vis[now]=0;
-    if(a[now]>mx||a[now]<mi){
-        return tmp[now]=0;
+    sum+=tmp;
+    sum%=MOD;
+    if(__isfirst){
+        return sum;
     }
-    return tmp[now];
+    return tmp;
 }
-int qpow(int a,int b){
-    if(!b)return 1;
-    int tmp=qpow(a,b/2);
-    return b%2?tmp*tmp%MOD*a%MOD:tmp*tmp%MOD;
-}
-int sum;
-void dfs2(int now,int ans){
-    if(now==pos){
-        ans*=tmp[now];
-        ans%=MOD;
-        sum+=ans;
-        sum%=MOD;
-        return;
-    }
-    vis[now]=1;
-    for(auto to:v[now]){
-        if(!tmp[to])continue;
-        dfs2(to,ans*tmp[now]%MOD*pow(tmp[to]+1,MOD-2)%MOD);
-    }
-    vis[now]=0;
-}
+int ans;
 signed main(){
     scanf("%lld%lld",&n,&k);
-    for(int i=1;i<=n;i++){
-        scanf("%lld",&a[i]);
-    }
+    for(int i=1;i<=n;i++)scanf("%lld",&a[i]);
     for(int i=1;i<n;i++){
-        int x,y;
-        scanf("%lld%lld",&x,&y);
-        v[x].push_back(y);
-        v[y].push_back(x);
+        int a,b;
+        scanf("%lld%lld",&a,&b);
+        v[a].push_back(b);
+        v[b].push_back(a);
     }
-    for(int i=1;i<=n;i++){
-        dfs1(i,a[now],a[now]+k);
+    for(int i=0;i<=n-k;i++){
+        int j=i+k;
+        int a1=dfs(1,1,i,j,true),a2=dfs(1,1,i+1,j,true),a3=dfs(1,1,i,j-1,true),a4=dfs(1,1,i+1,j-1,true);
+        ans+=(a1-a2-a3+a4+MOD)%MOD;
+        ans%=MOD;
     }
+    printf("%lld\n",ans);
     return 0;
 }

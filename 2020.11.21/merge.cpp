@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<queue>
 using namespace std;
 int T,m,n;
 int u[100001],v[100001];
@@ -27,13 +28,13 @@ int main(){
             int siz=t[u[now]].size();
             for(int j=1;j<=siz;j++){
                 int to=t[u[now]].front();
-                if(vis[abs(to)]){
+                if(vis[to]){
                     t[u[now]].pop();
                     continue;
                 }
-                now=abs(to);
+                now=to;
                 vis[now]=1;
-                ans.push_front(to);
+                ans.push_front(now);
                 break;
             }
             if(now==bk)break;
@@ -45,13 +46,13 @@ int main(){
             int siz=s[u[now]].size();
             for(int j=1;j<=siz;j++){
                 int to=s[u[now]].front();
-                if(vis[to]){
+                if(vis[abs(to)]){
                     s[u[now]].pop();
                     continue;
                 }
-                now=to;
+                now=abs(to);
                 vis[now]=1;
-                ans.push_front(now);
+                ans.push_front(to);
                 break;
             }
             if(now==bk)break;

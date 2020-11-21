@@ -80,8 +80,8 @@ int solve(int a,int b){
     return ans;
 }
 int main(){
-    freopen("graph.in","r",stdin);
-    freopen("graph.txt","w",stdout);
+    //freopen("graph.in","r",stdin);
+    //freopen("graph.txt","w",stdout);
     scanf("%d%d%d",&n,&m,&q);
     for(int i=1;i<=m;i++){
         int a,b,l;

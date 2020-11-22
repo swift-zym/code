@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstring>
 #include<queue>
+#include<algorithm>
 using namespace std;
 int n,m,q;
 struct node{
@@ -9,6 +10,13 @@ struct node{
         return v>t.v;
     }
 };
+struct edge{
+    int s,t,v;
+    bool operator <(const edge &t)const{
+        return v<t.v;
+    }
+};
+vector<edge>e;
 int dis[300001],vis[300001];
 int head[300001],nxt[600001],len[600001],to[600001],cnt;
 int pre[300001],pre_len[300001];
@@ -20,22 +28,7 @@ void add(int a,int b,int l){
 }
 priority_queue<node>p;
 vector<int>v[300001];
-void dij(int s){
-    dis[s]=-1;
-    p.push({s,-1});
-    while(!p.empty()){
-        node now=p.top();p.pop();vis[now.x]=1;
-        for(int i=head[now.x];i;i=nxt[i]){
-            if(max(dis[now.x],len[i])<dis[to[i]]){
-                dis[to[i]]=max(dis[now.x],len[i]);
-                pre[to[i]]=now.x;
-                pre_len[to[i]]=len[i];
-                if(!vis[to[i]])
-                p.push({to[i],dis[to[i]]});
-            }
-        }
-    }
-}
+
 int fa[300001][20],val[300001][20],dep[300001];
 void dfs(int now){
     fa[now][0]=pre[now];
@@ -79,23 +72,47 @@ int solve(int a,int b){
     }
     return ans;
 }
+int f[300001];
+int gf(int now){return f[now]==now?now:f[now]=gf(f[now]);}
+vector<pair<int,int> >vv[300001];
+void dfss(int now,int fa){
+    v[fa].push_back(now);
+    vis[now]=1;
+    for(auto i:vv[now]){
+        if(i.first==fa)continue;
+        pre_len[i.first]=i.second;
+        pre[i.first]=now;
+        dfss(i.first,now);
+    }
+}
 int main(){
-    //freopen("graph.in","r",stdin);
-    //freopen("graph.txt","w",stdout);
+    freopen("graph.in","r",stdin);
+    freopen("graph.txt","w",stdout);
     scanf("%d%d%d",&n,&m,&q);
     for(int i=1;i<=m;i++){
         int a,b,l;
         scanf("%d%d%d",&a,&b,&l);
         add(a,b,l);
         add(b,a,l);
+        e.push_back({a,b,l});
     }
+    for(int i=1;i<=n;i++)f[i]=i;
+    sort(e.begin(),e.end());
     memset(dis,0x3f,sizeof(dis));
     memset(pre_len,0x3f,sizeof(pre_len));
-    for(int i=1;i<=n;i++){
-        if(!vis[i])dij(i);
+    for(int i=0;i<m;i++){
+        if(gf(e[i].s)!=gf(e[i].t)){
+            vv[e[i].s].push_back(make_pair(e[i].t,e[i].v));
+            vv[e[i].t].push_back(make_pair(e[i].s,e[i].v));
+            f[gf(e[i].s)]=e[i].t;
+        }
     }
     for(int i=1;i<=n;i++){
-        v[pre[i]].push_back(i);
+        if(!vis[i]){
+            pre[i]=0;
+            pre_len[i]=1e9;
+            dfss(i,0);
+        }
     }
     /*for(int i=0;i<=n;i++){
         cout<<i<<":";

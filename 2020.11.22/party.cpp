@@ -1,44 +1,36 @@
 #include<iostream>
 #include<algorithm>
+#include<queue>
+#include<iomanip>
 using namespace std;
-double dp[11000][1100];
-int n,a[200],num[200];
-double b[200];
+int n,a[200];
+double q[200],bas[200];
+struct node{
+    double v;int x;
+    bool operator <(const node &t)const{
+        return v<t.v;
+    }
+};
+priority_queue<node>que;
+double update(int x){
+    return (1-bas[x]*q[x])/(1-bas[x]);
+}
 int main(){
     cin>>n;
-    for(int i=0;i<n;i++)cin>>a[i];
-    sort(a,a+n);
+    double ans=n,p=1;
     for(int i=0;i<n;i++){
-        num[i]=a[i]/a[0];
+        cin>>a[i];
+        q[i]=double(100-a[i])/100;
+        bas[i]=q[i];
+        que.push({update(i),i});
+        p*=double(a[i])/100;
     }
-    for(int i=0;i<n;i++){
-        b[i]=(double)a[i]/100;
+    for(int i=n;i<=300000;i++){
+        ans+=1-p;
+        node now=que.top();que.pop();
+        p*=now.v;bas[now.x]*=q[now.x];
+        que.push({update(now.x),now.x});
     }
-    dp[1][0]=1;
-    int now=0,cnt=0;
-    for(int i=1;i<10000;i++){
-    for(int j=0;j<(1<<n);j++){
-        cnt++;
-        if(j!=(1<<n)-1){
-            if(!(j&(1<<now))){
-                dp[i+1][j]+=dp[i][j]*(1.0-b[now]);
-                dp[i+1][j|(1<<now)]+=dp[i][j]*b[now];
-            }
-            else{
-                dp[i+1][j]+=dp[i][j];
-            }
-        }
-        if(cnt==num[now]){
-            now++;
-            now%=n;
-            cnt=0;
-        }
-    }
-    }
-    double ans=0;
-    for(int i=1;i<10000;i++){
-        ans+=i*dp[i][(1<<n)-1];
-    }
-    printf("%0.10lf\n",ans);
+    cout<<setiosflags(ios::fixed)<<setprecision(15)<<ans<<endl;
     return 0;
 }

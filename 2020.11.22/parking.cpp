@@ -41,6 +41,7 @@ int main(){
         }
         int x,y;
         scanf("%d%d",&x,&y);
+        
         h[x].add(y,1);l[y].add(x,1);
         for(int i=1;i<=n;i++)
         for(int j=1;j<=m;j++){

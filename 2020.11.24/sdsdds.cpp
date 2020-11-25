@@ -1,19 +1,16 @@
+#pragma GCC optimize(2)
+#pragma GCC optimize(3)
+#pragma GCC optimize("Ofast")
 #include<iostream>
 #include<string>
 #include<algorithm>
+#include<ctime>
 #define int long long
 using namespace std;
 int n,q;
 struct status{
     string s;
     int dp[21][21];
-    void print(){
-        for(int i=1;i<=n;i++)
-        for(int j=1;j<=n;j++){
-            cout<<dp[i][j]<<" ";
-            if(j==n)putchar(10);
-        }
-    }
 };
 struct sta{
     int t=-1;
@@ -35,6 +32,10 @@ void add(int &to,int v){
     to%=MOD;
 }
 signed main(){
+    freopen("bin10.in","r",stdin);
+    freopen("bin10.txt","w",stdout);
+    ios::sync_with_stdio(false);
+    int _a=clock();
     cin>>n>>q;
     for(int i=1;i<=q;i++){
         string opt;
@@ -112,9 +113,9 @@ signed main(){
                         add(ans,up.top().dp[i+1][c]*down.top().dp[i][d]%MOD);
                     }
                 }
-                cout<<ans<<endl;
             }
         }
     }
+    cout<<(double(clock()-_a))/CLOCKS_PER_SEC;
     return 0;
 }

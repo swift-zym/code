@@ -53,6 +53,7 @@ using namespace std;
 int n,k;
 int dp[1000][1000];
 int a[1000],b[1000];
+int dpp[1000];
 signed main(){
     freopen("clash.in","r",stdin);
     freopen("clash.out","w",stdout);
@@ -72,21 +73,17 @@ signed main(){
         if(a[i]+a[j]<=k){
             dp[i][j]=dp[i+1][j-1]+b[i]+b[j];
         }
-    }
-    for(int len=4;len<=n;len++)
-    for(int i=1;i+len-1<=n;i++){
-        int j=i+len-1;
-        dp[i][j]=max(dp[i][j],dp[i+1][j]);
-        dp[i][j]=max(dp[i][j],dp[i][j-1]);
-        for(int k=i;k<j;k++){
+        for(int k=i+1;k<j;k++){
             dp[i][j]=max(dp[i][j],dp[i][k]+dp[k+1][j]);
         }
     }
-    int ans=0;
-    for(int i=1;i<=n;i++)
-    for(int j=1;j<=n;j++){
-        ans=max(ans,dp[i][j]);
+    for(int i=2;i<=n;i++){
+        dpp[i]=dpp[i-1];
+        for(int j=0;j<i-1;j++){
+            if((i-j)%2)continue;
+            dpp[i]=max(dpp[i],dpp[j]+dp[j+1][i]);
+        }
     }
-    printf("%lld\n",ans);
+    printf("%lld\n",dpp[n]);
     return 0;
 }

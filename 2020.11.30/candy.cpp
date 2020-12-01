@@ -1,61 +1,56 @@
 #include<iostream>
-#include<set>
-#include<vector>
 #include<algorithm>
+#include<vector>
 using namespace std;
-set<pair<int,int>>st;
-int n,cnt;
 struct candy{
-    int id,s,t;
+    int a,b,id;
     bool operator <(const candy &c)const{
-        return s<c.s;
+        return a+b>c.a+c.b;
     }
-};
-vector<candy>v,ans;
+}a[100001];
+bool cmp(candy a,candy b){
+    if(a.b-a.a!=b.b-b.a)
+    return a.b-a.a<b.b-b.a;
+    return a.a+a.b<b.a+b.b;
+}
+bool cmpByID(candy a,candy b){
+    return a.id<b.id;
+}
+int n,pre[100001],nxt[100001];
+vector<candy>v;
 int main(){
     freopen("candy.in","r",stdin);
     freopen("candy.out","w",stdout);
     scanf("%d",&n);
+    for(int i=1;i<=n;i++)scanf("%d%d",&a[i].a,&a[i].b);
+    for(int i=1;i<=n;i++)a[i].id=i;
+    sort(a+1,a+n+1,cmp);
     for(int i=1;i<=n;i++){
-        int s,t;
-        scanf("%d%d",&s,&t);
-        v.push_back({i,s,t});
-    }
-    sort(v.begin(),v.end());
-    for(int i=0;i<n;i++){
-        auto c=v[i];
-        bool flag=1;
-        auto it=st.lower_bound({c.t,0});
-        if(it!=st.end()){
-            if(abs(v[it->second].s-c.s)>abs(v[it->second].t-c.t)){
-                flag=0;
-            }
-        }
-        if(it!=st.begin()){
-            it--;
-            if(abs(v[it->second].s-c.s)>abs(v[it->second].t-c.t)){
-                flag=0;
-            }
-        }
-        if(flag){
-            st.insert({c.t,i});
+        int pos=lower_bound(v.begin(),v.end(),a[i])-v.begin();
+        if(pos>=v.size()){
+            v.push_back(a[i]);
         }
         else{
-            ++cnt;
-            for(auto x:st){
-                ans.push_back({cnt,v[x.second].s,v[x.second].t});
-            }
-            st.clear();
-            st.insert({c.t,i});
+            pre[a[i].id]=v[pos].id;
+            nxt[v[pos].id]=a[i].id;
+            v[pos]=a[i];
         }
     }
-    ++cnt;
-    for(auto x:st){
-        ans.push_back({cnt,v[x.second].s,v[x.second].t});
+    sort(a+1,a+n+1,cmpByID);
+    int cnt=0,num=0;
+    for(int i=1;i<=n;i++){
+        num+=(!pre[i]);
     }
-    printf("%d\n",cnt);
-    for(auto r:ans){
-        printf("%d %d %d\n",r.s,r.t,r.id);
+    printf("%d\n",num);
+    for(int i=1;i<=n;i++){
+        if(!pre[i]){
+            cnt++;
+            int now=i;
+            while(now){
+                printf("%d %d %d\n",a[now].a,a[now].b,cnt);
+                now=nxt[now];
+            }
+        }
     }
     return 0;
 }

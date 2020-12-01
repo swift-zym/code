@@ -1,68 +1,60 @@
-#pragma GCC optimize("Ofast")
 #include<bits/stdc++.h>
 using namespace std;
-int n,a[100],b[100],c[100];
-unordered_map<int,int>mx;
-void check(int m,int n){
-    //cout<<m<<" "<<n<<endl;
-    if(n>mx[m]){
-        mx[m]=n;
+int n,s[21],a[21],b[21],sa,sb;
+struct node{
+    int x,y;
+    bool operator <(const node &t)const{
+        if(x!=t.x)
+        return x<t.x;
+        return y<t.y;
     }
-}
-int tmp[100][2],cnt;
+};
+vector<node>v;
 void dfs(int deep){
     if(deep==n+1){
         int x=0,y=0;
-        for(int i=1;i<=n;i++){
-            if(c[i]==0)x+=a[i];
+        for(int i=1;i<deep;i++){
+            if(s[i])x+=a[i];
             else y+=b[i];
         }
-        for(int i=1;i<=n;i++){
-            if(a[i]>0&&b[i]>0){
-                if(c[i]==0){
-                    check(x-a[i]+1,y+1);
-                }
-                else{
-                    check(x+1,y-b[i]+1);
-                }
-            }
+        if(x<=sa&&y<=sb){
+            v.push_back({x,y});
         }
         return;
     }
-    c[deep]=0;
+    s[deep]=0;
     dfs(deep+1);
-    c[deep]=1;
+    s[deep]=1;
     dfs(deep+1);
 }
-int add1,add2;
+int mx=INT_MAX,ax,ay;
+void check(int x,int y){
+    if(x>sa||y>sb)return;
+    if(x+y<mx){
+        mx=x+y;
+        ax=x;ay=y;
+    }
+    else if(x+y==mx&&x<ax){
+        ax=x;ay=y;
+    }
+}
 int main(){
     freopen("gloves.in","r",stdin);
     freopen("gloves.out","w",stdout);
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++)scanf("%d",&tmp[i][0]);
-    for(int i=1;i<=n;i++)scanf("%d",&tmp[i][1]);
+    cin>>n;
     for(int i=1;i<=n;i++){
-        if(tmp[i][0]==0){
-            add2+=tmp[i][1];
-        }
-        else if(tmp[i][1]==0){
-            add1+=tmp[i][0];
-        }
-        else{
-            a[++cnt]=tmp[i][0];
-            b[cnt]=tmp[i][1];
-        }
+        cin>>a[i];sa+=a[i];
     }
-    n=cnt;
+    for(int i=1;i<=n;i++){
+        cin>>b[i];sb+=b[i];
+    }
     dfs(1);
-    int mi=INT_MAX,x,y;
-    for(auto i:mx){
-        //cout<<i.first<<" "<<i.second<<endl;
-        if(i.first+i.second<mi){
-            x=i.first;y=i.second;
-            mi=i.first+i.second;
-        }
+    sort(v.begin(),v.end());
+    int mx=0;
+    for(int i=v.size()-1;i>=0;i--){
+        check(v[i].x+1,mx+1);
+        mx=max(mx,v[i].y);
     }
-    printf("%d\n%d\n",x+add1,y+add2);
+    cout<<ax<<endl<<ay<<endl;
     return 0;
 }

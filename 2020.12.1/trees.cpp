@@ -1,112 +1,36 @@
 #include<bits/stdc++.h>
+#define int long long
 using namespace std;
-vector<int>v[100001];
-int n,q,mx[100001][21],fa[100001][21],w[100001],deep[100001];
-int dp[100001],ans[100001];
-int query(int now,int v){
-    v++;
-    int val=-1;
-    for(int i=20;i>=0;i--){
-        if(v>=(1<<i)){
-            v-=(1<<i);
-            val=max(val,mx[now][i]);
-            now=fa[now][i];
-        }
+struct team{
+    int a,b;
+    bool operator <(const team &t)const{
+        return b-a>t.b-t.a;
     }
-    return val;
+}c[300001];
+int n,x,y,ans=1e9;
+priority_queue<pair<team,int>>p;
+bool cmp(team a,team b){
+    return a.a<b.a;
 }
-int gf(int now,int v){
-    for(int i=20;i>=0;i--){
-        if(v>=(1<<i)){
-            v-=(1<<i);
-            now=fa[now][i];
+signed main(){
+    freopen("rank.in","r",stdin);
+    freopen("rank.out","w",stdout);
+    scanf("%lld",&n);n--;
+    scanf("%lld%lld",&x,&y);
+    for(int i=1;i<=n;i++)scanf("%lld%lld",&c[i].a,&c[i].b);
+    sort(c+1,c+n+1,cmp);
+    int pos=n,num=0;
+    while(1){
+        for(;pos&&c[pos].a>x;pos--){p.push(make_pair(c[pos],pos));}
+        ans=min(ans,(int)p.size());
+        if(p.empty())break;
+        auto now=p.top();p.pop();
+        if(x>now.first.b-now.first.a){
+            x-=(now.first.b-now.first.a+1);
+            c[now.second].a=0;
         }
+        else break;
     }
-    return now;
-}
-struct node{
-    int id,pos,val;
-};
-vector<node>que[100001],del[100001];
-void dfs(int now,int f,int d){
-    deep[now]=d;
-    fa[now][0]=f;mx[now][0]=w[now];
-    for(int i=1;i<=20;i++){
-        fa[now][i]=fa[fa[now][i-1]][i-1];
-        mx[now][i]=max(mx[now][i-1],mx[fa[now][i-1]][i-1]);
-    }
-    int l=1,r=1e5+1;
-    while(l!=r){
-        int mid=(l+r)/2;
-        if(query(now,mid)>w[now]){
-            r=mid;
-        }
-        else{
-            l=mid+1;
-        }
-    }
-    if(l!=1e5+1){
-        dp[now]=dp[gf(now,l)]+1;
-    }
-    for(auto s:que[now]){
-        l=0;r=1e5+1;
-        while(l!=r){
-            int mid=(l+r)/2;
-            if(query(now,mid)>s.val){
-                r=mid;
-            }
-            else{
-                l=mid+1;
-            }
-        }
-        //cout<<s.id<<" "<<s.pos<<" "<<s.val<<" "<<l<<" "<<query(now,l)<<endl;
-        int pre=gf(now,l);
-        if(l!=1e5+1&&deep[pre]>=deep[s.pos]){
-            //cout<<"OK"<<endl;
-            ans[s.id]+=dp[pre]+1;
-            del[s.pos].push_back({s.id,0,query(pre,deep[pre]-deep[s.pos])});
-        }
-    }
-    for(auto to:v[now]){
-        if(to==f)continue;
-        dfs(to,now,d+1);
-    }
-}
-int main(){
-    freopen("a.in","r",stdin);
-    freopen("a.out","w",stdout);
-    scanf("%d%d",&n,&q);
-    for(int i=1;i<=n;i++)scanf("%d",&w[i]);
-    for(int i=1;i<n;i++){
-        int x,y;
-        scanf("%d%d",&x,&y);
-        v[x].push_back(y);
-        v[y].push_back(x);
-    }
-    for(int i=1;i<=q;i++){
-        int u,v,c;
-        scanf("%d%d%d",&u,&v,&c);
-        que[u].push_back({i,v,c});
-    }
-    dfs(1,1,1);
-    for(int i=1;i<=n;i++)
-    for(auto s:del[i]){
-        int l=1,r=1e5+1;
-        while(l!=r){
-            int mid=(l+r)/2;
-            if(query(i,mid)>s.val){
-                r=mid;
-            }
-            else{
-                l=mid+1;
-            }
-        }
-        if(l!=1e5+1){
-            ans[s.id]-=dp[gf(i,l)]+1;
-        }
-    }
-    for(int i=1;i<=q;i++){
-        printf("%d\n",ans[i]);
-    }
+    printf("%lld\n",ans+1);
     return 0;
 }

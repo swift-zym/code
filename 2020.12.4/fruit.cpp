@@ -31,8 +31,8 @@ int solve(int x){
     return num;
 }
 int main(){
-    freopen("fruit.in","r",stdin);
-    freopen("fruit.out","w",stdout);
+    //freopen("fruit.in","r",stdin);
+    //freopen("fruit.out","w",stdout);
     scanf("%d%d",&n,&p);
     for(int i=1;i<=n;i++)scanf("%d%d%d",&t[i],&a[i],&b[i]);
     int bk=p,ans=solve(0);

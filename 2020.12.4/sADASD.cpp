@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
-#define ADD 100000001
+#define ADD 1000000001
 using namespace std;
 struct node{
     int l,r,ls,rs,sum;
-}a[10000000];
+}a[20000000];
 int tot;
 void pushup(int now){
     a[now].sum=0;
@@ -18,20 +18,29 @@ int copyNode(int from){
     a[++tot]=a[from];
     return tot;
 }
-int add(int old,int pos,int v){
-    int now=copyNode(old);
+int add(int old,int pos,int v,bool isNewNode=false){
+    int now=old;
+    if(!isNewNode){
+        now=copyNode(old);
+    }
     if(a[now].l==a[now].r){
         a[now].sum+=v;
         return now;
     }
     int mid=(a[now].l+a[now].r)>>1;
     if(pos<=mid){
-        if(a[now].ls==-1)a[now].ls=newNode(a[now].l,mid);
-        a[now].ls=add(a[now].ls,pos,v);
+        if(a[now].ls==-1){
+            a[now].ls=newNode(a[now].l,mid);
+            a[now].ls=add(a[now].ls,pos,true);
+        }
+        else a[now].ls=add(a[now].ls,pos,v);
     }
     else{
-        if(a[now].rs==-1)a[now].rs=newNode(mid+1,a[now].r);
-        a[now].rs=add(a[now].rs,pos,v);
+        if(a[now].rs==-1){
+            a[now].rs=newNode(mid+1,a[now].r);
+            a[now].rs=add(a[now].rs,pos,v,true);
+        }
+        else a[now].rs=add(a[now].rs,pos,v);
     }
     pushup(now);
     return now;
@@ -49,7 +58,7 @@ int query(int now,int old,int k){
     }
 }
 int build(){
-    a[++tot]={1,2000000001,-1,-1,0};
+    a[++tot]={1,1000000001,-1,-1,0};
     return tot;
 }
 int roots[1000000];
@@ -70,8 +79,8 @@ struct edge{
     }
 };
 vector<edge>v;
-vector<int>g[200000];
-int f[200000],h[100001],val[200000],cnt;
+vector<int>g[200001];
+int f[200001],h[200001],val[200001],vis[200001],cnt;
 int gf(int now){return f[now]==now?now:f[now]=gf(f[now]);}
 void init(){
     roots[0]=build();
@@ -87,9 +96,9 @@ void init(){
         v.push_back({x,y,z});
     }
 }
-int fa[200000][20],dfn[200000],mi[200000],mx[200000],T,visCnt;
+int fa[200001][20],dfn[200001],mi[200001],mx[200001],T;
 void dfs(int now,int pre){
-    visCnt++;
+    vis[now]=1;
     if(now<=n){
         dfn[now]=mi[now]=mx[now]=++T;
         set_val(T,h[now]);
@@ -119,13 +128,15 @@ int main(){
         g[cnt].push_back(ft);
         val[cnt]=e.v;
     }
-    dfs(cnt,cnt);
-    assert(visCnt==cnt);
-    assert(cnt==n+n-1);
+    for(int i=cnt;i>=1;i--){
+        if(!vis[i]){
+            dfs(i,i);
+        }
+    }
     for(int i=1;i<=q;i++){
         int x,y,z;
         scanf("%d%d%d",&x,&y,&z);
-        //x^=lastans;y^=lastans;z^=lastans;
+        x^=lastans;y^=lastans;z^=lastans;
         for(int i=19;i>=0;i--){
             if(val[fa[x][i]]<=y){
                 x=fa[x][i];
